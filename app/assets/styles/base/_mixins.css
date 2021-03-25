@@ -16,6 +16,12 @@
   }
 }
 
+@define-mixin atShowcase {
+  @media (min-width: 991px){
+    @mixin-content;
+  }
+}
+
 /*  If not using floats, can delete this (Flexbox) */
 @define-mixin clearfix {
   &::after {
