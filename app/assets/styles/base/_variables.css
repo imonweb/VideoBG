@@ -1,5 +1,11 @@
 $mainBlue: #2f5572;
 $mainOrange: #d59541;
+$overlayColor: #03a9f4;
+
+/*  css variables */
+:root {
+  --overlay-color: #03a9f4;
+}
 
 /* 
 $mainBlue: #2f5572; 

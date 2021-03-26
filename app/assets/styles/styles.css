@@ -1,13 +1,16 @@
 /* @import 'normalize.css'; */
 @import 'base/_global';
+@import 'base/_variables';
+@import 'base/_mixins';
 @import 'modules/_showcase';
+
 
 
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
 
 .menu {
-  display: none;
+  display: none; 
 }
 
 

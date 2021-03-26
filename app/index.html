@@ -8,6 +8,7 @@
 </head>
 <body>
   <section class="showcase">
+    <!-- <section class="showcase showcase--active"> -->
     <header>
       <h2 class="showcase__logo">Travel</h2>
       <div class="showcase__toggle"></div>
@@ -31,8 +32,8 @@
       </ul>
   </section>
 
-  <div class="showcase--menu">
-    <ul>
+  <div class="showcase__menu">
+    <ul class="showcase__menu--ul">
       <li><a href="#">Home</a></li>
       <li><a href="#">News</a></li>
       <li><a href="#">Destination</a></li>
@@ -40,11 +41,19 @@
       <li><a href="#">Contact</a></li>
     </ul>
   </div>
-
-  
-
-   
-  
   <script src="bundled.js"></script>
+
+  <script>
+  /*
+    const menuToggle = document.querySelector('.toggle')
+    const showcase = document.querySelector('.showcase')
+
+    menuToggle.addEventListener('click', () => {
+      menuToggle.classList.toggle('active')
+      showcase.classList.toggle('active')
+    })
+  */
+  </script>
+
 </body>
 </html>

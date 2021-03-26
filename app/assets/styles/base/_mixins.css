@@ -17,7 +17,7 @@
 }
 
 @define-mixin atShowcase {
-  @media (min-width: 991px){
+  @media (min-width: 798px){
     @mixin-content;
   }
 }
